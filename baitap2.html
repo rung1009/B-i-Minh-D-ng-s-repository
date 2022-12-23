@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="info"></h1>
+    <script>
+        var me=[
+            "Tên:Bùi Minh Dũng"+"<br>",
+            "Tuổi:15"+"<br>",
+            "Sở thích :Chơi game, xem anime, hóng chuyện"
+    ];
+    document.getElementById("info").innerHTML=me;
+    var Husky = {
+              "name": "Ngáo",
+              "legs": 4,
+              "color": "Đen"
+            };
+            document.write ("Con Husky nhà tôi tên là " +Husky.name +",nó có "+ Husky.legs+ " chân và có màu "+Husky.color);
+            document.write("<br>");
+            const R=5;
+            let text ="";
+            for (let i=1;i <= R;i++){
+                for (var k=R;k>i;k--){
+                    document.write("&nbsp;&nbsp;")
+                }
+            
+            for (let j=1;j <= i*2-1; j++){
+               document.write ("1")}
+            document.write("<br>")
+            }
+    </script>
+</body>
+</html>
